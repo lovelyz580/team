@@ -1,0 +1,99 @@
+﻿
+/*Team*/
+.member {
+    background: #6C7B8B;
+    margin-left: -70px;
+    clear: both;
+}
+.member .t {
+    text-align: center;
+    padding-top: 5px;
+}
+.member .t h1 {
+    width: 100%;
+    font-weight: bold;
+    font-family: "Microsoft YaHei", "微软雅黑", arial, consolas, "sans-serif";
+    margin-top: 20px;
+}
+.member .t h1, h2, h3, h4, h5, h6 {
+    font-family: "Microsoft YaHei", "微软雅黑", arial, consolas, "sans-serif";
+}
+.member .b {
+    margin-top: 10px;
+}
+.member .b ul {
+    width: 100%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: -webkit-box;
+    display: -moz-box;
+}
+.member .b ul li {
+    -webkit-box-flex: 1;
+    -moz-box-flex: 1;
+    min-width: 150px;
+    padding: 5px;
+    text-align: center;
+}
+.member .b ul li  {
+    width: 100%;
+}
+.member .b ul li  figure {
+    width: 100%;
+    display: block;
+}
+.member .b ul li  figure img {
+    width: 100%;
+    max-width: 225px;
+    max-height: 225px;
+    border-radius: 500px;
+    border: 5px solid #fff;
+    transition: all ease 2s;
+}
+.member .b ul li  figure img:hover {
+    border: 5px dashed #1EF5D7;
+}
+.member .b ul li  figure img.c:hover {
+    border: 5px dashed #E8ED13;
+}
+.member .b ul li  figure figcaption {
+    margin-top: 20px;
+    width: 100%;
+}
+.member .b ul li  figure figcaption h1 {
+    font-family: "Microsoft YaHei", "微软雅黑", arial, consolas, "sans-serif";
+    font-size: 40px;
+    margin-top: 2px;
+}
+.member .b ul li  figure figcaption p {
+    margin-bottom: 5px;
+}
+.member .b ul li  figure figcaption p.j {
+    font-size: 14px;
+}
+.member .b ul li  figure figcaption p.z:before {
+    content: "座右铭：";
+}
+.member .b ul li  figure figcaption p.j:before {
+    content: "擅长：";
+}
+.member .b ul li  figure figcaption p.a:before {
+    content: "博客：";
+}
+.member .b ul li  figure figcaption p.e:before {
+    content: "Email：";
+}
+.member .b ul li  figure figcaption h2 {
+    margin-top: 5px;
+    padding: 0;
+    font-size: 18px;
+    font-family: "Microsoft YaHei", "微软雅黑", arial, consolas, "sans-serif";
+    font-weight: normal;
+    margin-bottom: 5px;
+}
+
+.member .b ul li figure img {
+    max-width: 200px;
+}
+
